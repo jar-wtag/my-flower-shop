@@ -6,14 +6,15 @@ body {
 /* Header style */
 
 .header {
-    background-color: rgba(229, 84, 115, 0.10);  
-    
+    background-color: rgba(229, 84, 115, 0.10);     
+    margin: -10px -10px; 
 } 
 
 .banner {
     display: flex;
     align-items: center;
     padding: 0 130px;
+    margin: 0 auto;
     
 }
 
@@ -51,6 +52,32 @@ body {
     width: 400px;
     height: 500px;
     align-items: center;
-    padding-left: 300px;
+    padding: 50px 0 0 350px;
 
+}
+
+.flower-items {
+    align-items: center;
+    max-width: 1200px;
+    background: #FFF;
+    
+}
+
+.flower-item {
+    width: 164px;
+    height: 238px;
+    padding: 50px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flower-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 {
+    background: rgba(71, 125, 17, 0.15);
 }
