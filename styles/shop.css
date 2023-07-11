@@ -16,7 +16,6 @@ body {
     padding: 0 130px;
     justify-content: space-between;
     margin-bottom: 130px;
-    
 }
 
 .banner-content {
@@ -57,6 +56,8 @@ body {
 
 }
 
+/* feature section style */
+
 .feature-text {
     text-align: center;
     margin: 60px 460px;
@@ -73,6 +74,8 @@ body {
     font-size: 18px;
     font-style: normal;
 }
+
+/* Flowers items section style */
 
 .items {
     background: #FFF;
@@ -122,8 +125,10 @@ body {
     margin: 80px 0;
     padding: 80px 120px;
 }
+
 .deal-content {
     align-items: center;
+    text-align: center;
 }
 
 .deal-title {
@@ -145,4 +150,66 @@ body {
 .deal-img {
     width: 318px;
     height: 420px;
+}
+
+/* social media section style */
+
+.instagram-text-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+.instagram-text-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 460px;
+}
+
+.flowers {
+    margin: 60px 140px 240px 0;
+    text-align: center;
+    
+}
+
+.flower {
+    width: 250px;
+    height: 300px;
+    align-items: center;
+    margin: 0 2px;
+}
+
+.subscribe-form {
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.subscribe-subtitle {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+  
 }
