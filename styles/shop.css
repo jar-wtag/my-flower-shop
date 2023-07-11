@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 130px;
-    margin: 0 auto;
+    justify-content: space-between;
     
 }
 
@@ -56,12 +56,35 @@ body {
 
 }
 
-.flower-items {
-    align-items: center;
-    max-width: 1200px;
-    background: #FFF;
-    
+.feature-text {
+    text-align: center;
+    margin: 100px 460px;
 }
+
+.feature-text-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.feature-text-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+}
+
+.items {
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    justify-content: center;
+}
+
+.flowers-item {
+    align-items: center;
+    margin: 0 10px;
+} 
 
 .flower-item {
     width: 164px;
@@ -80,4 +103,9 @@ body {
 
 .flower-3 {
     background: rgba(71, 125, 17, 0.15);
+}
+
+.item-text {
+    text-decoration: underline;
+    text-align: center;
 }
