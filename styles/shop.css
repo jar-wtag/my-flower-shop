@@ -92,8 +92,8 @@ body {
 } 
 
 .flower-item {
-    width: 330px;
-    height: 410px;
+    width: 300px;
+    height: 380px;
     padding: 50px 40px 0 40px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -186,8 +186,8 @@ body {
 }
 
 .flower {
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 350px;
     align-items: center;
     margin: 0 2px;
 }
