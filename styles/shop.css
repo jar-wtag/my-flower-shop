@@ -80,8 +80,10 @@ body {
     background: #FFF;
     display: flex;
     align-items: center;
-    max-width: 1600px;
     justify-content: center;
+    width: 50%;
+    margin: auto;
+    
 }
 
 .flowers-item {
@@ -90,8 +92,8 @@ body {
 } 
 
 .flower-item {
-    width: 164px;
-    height: 238px;
+    width: 330px;
+    height: 410px;
     padding: 50px 40px 0 40px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -111,6 +113,11 @@ body {
 .item-text {
     text-decoration: underline;
     text-align: center;
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 /* Deal section styles  */
@@ -175,13 +182,12 @@ body {
 
 .flowers {
     margin: 60px 140px 240px 0;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .flower {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     align-items: center;
     margin: 0 2px;
 }
@@ -189,12 +195,13 @@ body {
 /* Subscription section style */
 
 .subscribe-form {
-    align-items: center;
     text-align: center;
     background-image: url('/styles/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    margin: 0 220px;
-    padding: 100px 120px;
+    padding: 100px  0 100px;
+    height: 500px;
+    width: 50%;
+    margin: auto;
 }
 
 .subscribe-title {
@@ -203,6 +210,7 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+    text-align: center;
 }
 
 .subscribe-subtitle {
@@ -215,7 +223,7 @@ body {
 }
 
 .email {
-    width: 500px;
+    width: 600px;
     height: 60px;
     border-radius: 8px;
     background: #FFF;
@@ -233,9 +241,9 @@ input::placeholder {
 .footer-content {
     text-align: center;
     background: #111010;
-    height: 300px;
+    height: 500px;
     margin: 130px -10px 0;
-    padding: 50px 0 0;
+    padding: 100px 0 0;
 }
 
 .footer-title {
