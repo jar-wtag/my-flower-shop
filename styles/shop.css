@@ -101,15 +101,15 @@ body {
     border-radius: 300px 300px 0px 0px;
 }
 
-.flower-1 {
+.tulip-pink {
     background: rgba(167, 33, 98, 0.15);
 }
 
-.flower-2 {
+.daisy {
     background: rgba(5, 151, 160, 0.15);
 }
 
-.flower-3 {
+.tulip-yellow {
     background: rgba(71, 125, 17, 0.15);
 }
 
@@ -118,7 +118,7 @@ body {
     text-align: center;
     color: #272727;
     font-family: Lato;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
 }
@@ -176,9 +176,11 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-family: Lato;
+    padding: 0 600px;
     font-style: normal;
     font-weight: 400;
-    margin: 0 460px;
+    margin: auto;
+    width: 50%;
 }
 
 /* Flowers section style */
@@ -201,7 +203,7 @@ body {
     text-align: center;
     background-image: url('/Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    padding: 80px  200px;
+    padding: 80px 70px 70px 0;
     height: 500px;
     width: 50%;
     margin: auto;
