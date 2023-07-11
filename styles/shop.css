@@ -15,6 +15,7 @@ body {
     align-items: center;
     padding: 0 130px;
     justify-content: space-between;
+    margin-bottom: 130px;
     
 }
 
@@ -58,7 +59,7 @@ body {
 
 .feature-text {
     text-align: center;
-    margin: 100px 460px;
+    margin: 60px 460px;
 }
 
 .feature-text-title {
@@ -108,4 +109,40 @@ body {
 .item-text {
     text-decoration: underline;
     text-align: center;
+}
+
+/* Deal section styles  */
+
+.deal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 80px 0;
+    padding: 80px 120px;
+}
+.deal-content {
+    align-items: center;
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 594px;
+}
+
+.deal-img {
+    width: 318px;
+    height: 420px;
 }
