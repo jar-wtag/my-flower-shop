@@ -72,6 +72,9 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-style: normal;
+    padding: 0 300px;
+    margin: auto;
+    width: 50%;
 }
 
 /* Flowers items section style */
@@ -198,7 +201,7 @@ body {
     text-align: center;
     background-image: url('/styles/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    padding: 100px  0 100px;
+    padding: 80px  200px;
     height: 500px;
     width: 50%;
     margin: auto;
@@ -232,7 +235,7 @@ body {
 }
 
 input::placeholder {
-    font-size: 17px;
+    font-size: 20px;
     padding-left: 10px;
 }
 
